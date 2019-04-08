@@ -1,0 +1,29 @@
+body{
+    font-family: "Helvetica", sans-serif;
+}
+
+.app {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app .stopwatch {
+        text-align: center;
+        width: 150px;
+        padding: 15px;
+        color: #FFFFFF;
+        background: #000000;
+        border-radius: 5px 5px 0px 0px;
+}
+
+.app .buttons {
+        text-align: center;
+        width: 150px;
+        padding: 15px;
+        background: #C0C0C0;
+        border-radius: 0px 0px 5px 5px;
+}
