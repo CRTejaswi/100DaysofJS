@@ -13,3 +13,6 @@ A stopwatch utility with `Start`, `Stop` & `Reset` buttons that displays time in
 
 ## Day 2 - Calculator <sup>[[source]](/002) [[video]](https://www.youtube.com/watch?v=iu-j_T3ki24)</sup>
 A 4-function `+-*/` calculator utility .
+
+## Day 3 - Quiz <sup>[[source]](/003) [[video]](https://www.youtube.com/watch?v=XYpZTBzxkOY)</sup>
+An MCQ-type quiz utility.
