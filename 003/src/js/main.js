@@ -1,4 +1,5 @@
-/* JS: Implements the Quiz utility with questions from a JSON file. */
+/* JS: Implements the Quiz utility with questions imported from a JSON file. */
+
 
 /**
  * Defines essential variables & objects.
@@ -8,7 +9,7 @@
  *   question_title  = The actual question.
  *   answers         = Possible answer(s).
  *   score           = Score obtained by user.
- *   btn_submit      = Triggered when an answer is submitted    .
+ *   btn_submit      = Triggered when an answer is submitted.
  */
 let questions;
 let questions_count;
@@ -28,12 +29,11 @@ function getQuestions(){
     request.open("GET", "resources/questions.json", false);
     request.onreadystatechange = function(){
         if (request.readyState == 4 && request.status == 200){
-                console.log(request.responseText); // 1
+            // console.log(request.responseText);
             questions = JSON.parse(request.responseText).questions;
             questions_count = questions.length;
             question_index = 0;
-            console.log(questions, questions_count, question_index); // 2
-
+            // console.log(questions, questions_count, question_index);
         }
     }
     request.send();
@@ -112,7 +112,7 @@ btn_next.addEventListener("click", function(){
 
 
 /**
- * Initialize the utility.
+ * Initializes the utility.
  *   - Get all the questions.
  *   - Display the current question with the list of possible answers.
  */

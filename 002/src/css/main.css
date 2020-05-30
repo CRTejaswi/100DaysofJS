@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  background: #F3F3F3;
+  background: #FFFFFF;
   font-family: "Helvetica", sans-serif;
   font-size: 28px;
 }
+
 
 .app {
   width: 100vw;
@@ -13,9 +14,11 @@ body {
   align-items: center;
 }
 
+
 .calculator {
   width: 320px;
 }
+
 .calculator_display {
     background: #C0C0C0;
     padding: 0px 20px;
@@ -25,12 +28,13 @@ body {
     border-radius: 16px 16px 0px 0px;
     line-height: 60px;
 }
+
 .calculator_actions {
     background: #000000;
     display: flex;
     flex-wrap: wrap;
     border-radius: 0px 0px 16px 16px;
-    padding: 15px 0px;
+    padding: 16px 4px;
 }
 .calculator_actions button {
     width: 48px;

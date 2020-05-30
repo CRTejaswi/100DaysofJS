@@ -1,6 +1,8 @@
 body{
     font-family: "Helvetica", sans-serif;
+    font-size: 24px;
 }
+
 
 .app {
     display: flex;
@@ -23,6 +25,7 @@ body{
 .app .buttons {
         text-align: center;
         width: 150px;
+        height: 50px;
         padding: 15px;
         background: #C0C0C0;
         border-radius: 0px 0px 5px 5px;

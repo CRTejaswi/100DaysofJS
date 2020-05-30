@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 3: Quiz</title>
+    <title>Day 4: Rock, Paper, Scissors</title>
     <link rel="stylesheet" href="src/css/main.css">
     <style type="text/css">
         @font-face {
@@ -21,20 +21,28 @@
     </style>
 </head>
 <body>
-    <div class="quiz">
-        <div class="question" id="question">
-            <h3 class="question_title" id="title"></h3>
-            <div class="question_answers" id="answers"></div>
-            <div class="question_actions">
-                <button class="btn" id="btn_submit">Submit</button>
-                <button class="btn hide" id="btn_next">Next</button>
-            </div>
+    <div class="game">
+        <h2>|||||||||| RPS ||||||||||</h2>
+        <p> Scores (User/AI):
+            <span id="score_user"></span> / <span id="score_ai"></span>
+        </p>
+
+        <div>
+            <h3>User's Choice</h3>
         </div>
 
-        <div class="score hide" id="scores">
-            You scored: <span id="score"></span>
+        <div class="options">
+            <div class="option rock" data-choice="rock"></div>
+            <div class="option paper" data-choice="paper"></div>
+            <div class="option scissors" data-choice="scissors"></div>
         </div>
-    </div>
+
+        <div class="battle" id="battle">
+            <h3>AI's Choice</h3>
+        </div>
+
+        <button class="reset hide" id="reset">Reset</button>
+</div>
     <script src="src/js/main.js"></script>
 </body>
 </html>

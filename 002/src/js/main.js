@@ -1,8 +1,21 @@
+/* JS: Implements the Calculator utility. */
+
+/**
+ * Defines essential variables & objects.
+ *   display   = Calculator display.
+ *   buttons   = Calculator buttons.
+ *   operation = Mathematical operation to perform.
+ */
 let display = document.getElementById("display");
 let buttons = document.getElementsByClassName("btn");
-
 let operation = "";
 
+
+/**
+ * Checks for button presses.
+ *   Calls doAction() or doOperation() whenever an
+ *   ACTION or OPERATOR button is pressed.
+ */
 for (let i = 0; i < buttons.length; i++) {
     let button = buttons[i];
 
@@ -22,6 +35,9 @@ for (let i = 0; i < buttons.length; i++) {
     });
 }
 
+/**
+ * Calculates and displays the result of an OPERATION.
+ */
 function doOperation(button) {
     if (button.classList.contains("operator")) {
         if (!operation) {
@@ -34,6 +50,9 @@ function doOperation(button) {
     display.innerHTML = operation;
 }
 
+/**
+ * Performs the action associated with the button.
+ */
 function doAction (button) {
     switch (button.dataset.value) {
         case "equals":

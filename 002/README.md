@@ -6,9 +6,9 @@ A 4-function `+-*/` calculator utility .
 
 ![Calculator](resources/app.gif)
 
-## What's Next?
-- Add `+/-` button, to alternate number between positive & negative values.\
+### What's Next?
+- [ ] Add `+/-` button, to alternate number between positive & negative values. <br>
 _eg. If display is `12`, press `+/-` to get `-12`, and vice-versa._
-- Add mod (`%`) calculations.\
+- [ ] Add mod (`%`) calculations. <br>
 _eg. `12 % 5 = 2`._
-- Publish the utility as a Chrome/Firefox extension.
+- [ ] Publish the utility as a Chrome/Firefox extension.

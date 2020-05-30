@@ -7,7 +7,6 @@
 			"answers": [],
 			"correct": ""
 		},
-
 		{
 			"id": "1",
 			"title": "Appearing on the show in 1982, who was the youngest person to ever host Saturday Night Live?",
@@ -31,10 +30,9 @@
 			],
 			"correct": "3"
 		},
-
 		{
 			"id": "2",
-			"title": "Leonardo Davinci’s 15th-century mural, The Last Supper, is located in what city?",
+			"title": "Leonardo da Vinci’s 15th-century mural, The Last Supper, is located in what city?",
 			"answers": [
 				{
 					"id": "1",
