@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 11: JSON Auto-Complete</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <style type="text/css">
+        @font-face {
+            font-family: "Computer Modern";
+            src: url('resources/fonts/cmunrm.otf') format("opentype");
+        }
+        @font-face {
+            font-family: "Computer Modern";
+            src: url('resources/fonts/cmunrb.otf') format("opentype");
+            font-weight: bold;
+        }
+        body {
+            font-family: "Computer Modern", serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center mb-3">JSON Auto-Complete</h1>
+    <div class="form-group">
+        <input
+            type="text"
+            id="search"
+            class="form-control form-control-lg"
+            placeholder="Select Equation">
+    </div>
+    <div id="match-list"></div>
+    </div>
+    <script src="src/js/main.js"></script>
+</body>
+</html>

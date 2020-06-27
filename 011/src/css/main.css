@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background: #FFFFFF;
+    font-family: "Computer Modern", serif;
+    font-size: 16px;
+}
+
+.hide {
+    display: none;
+}
