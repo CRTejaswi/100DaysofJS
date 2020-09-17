@@ -3,7 +3,7 @@
 const search = document.getElementById('search');
 const matchList = document.getElementById('match-list');
 const searchLatex = async searchText => {
-    const response = await fetch('https://crtejaswi.github.io/API/latexEquations.json');
+    const response = await fetch('https://crtejaswi.github.io/api/latex1.json');
     const entries = await response.json();
 
     let matches = entries.filter(entry => {
